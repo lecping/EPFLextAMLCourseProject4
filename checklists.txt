@@ -1,0 +1,41 @@
+Important note: Only the last model (i.e. ConvNet) should use the pixel values for computation. All other models, including the PCA exploration at the beginning should be based on the extracted high-level features.
+
+Data exploration
+
+- [x] Plot images
+- [x] Scree plot analysis
+- [x] PCA plot
+
+Visual search with k-NN
+
+- [x] k-NN performance
+- [x] 10 nearest neighbors
+
+Simple decision trees
+
+- [x] Depth of 3
+- [x] Plot tree
+- [x] PCA as preprocessing
+
+Logistic regression baseline
+
+- [x] Logreg performance
+- [x] CVed grid search
+- [x] Class probability per image
+- [x] Relationship between regularization strength and class probability
+
+Nonlinear classifiers
+
+- [x] RFs performance
+- [x] Ensemble size effect
+- [x] Linear, RBF SVMs
+
+Dense network
+
+- [x] 1-layer
+- [x] 2-layer
+
+Convolutional neural network
+
+- [x] ConvNet performance
+- [ ] Describe results
